@@ -1,0 +1,166 @@
+<svg width="100%" viewBox="0 0 1100 560" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-labelledby="svgTitle svgDesc">
+  <title id="svgTitle">Dharmik Patel — Developer ID Card and Featured Projects</title>
+  <desc id="svgDesc">A hanging developer identification badge for Dharmik Patel beside a panel listing four featured software projects: ZORO AI, InvestNook, Hospital Management System, and Human Resource Management System.</desc>
+
+  <defs>
+    <linearGradient id="lanyardGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1F6FEB"/>
+      <stop offset="100%" stop-color="#58A6FF"/>
+    </linearGradient>
+    <linearGradient id="stripeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1F6FEB"/>
+      <stop offset="100%" stop-color="#58A6FF"/>
+    </linearGradient>
+    <linearGradient id="panelHeaderRule" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="photoClip">
+      <circle cx="220" cy="205" r="54"/>
+    </clipPath>
+    <clipPath id="cardClip">
+      <rect x="50" y="108" width="340" height="400" rx="18" ry="18"/>
+    </clipPath>
+  </defs>
+
+  <!-- Base background -->
+  <rect x="0" y="0" width="1100" height="560" fill="#0D1117"/>
+
+  <!-- ===================== LEFT: HANGING DEVELOPER ID CARD ===================== -->
+  <g id="badge-swing">
+    <animateTransform attributeName="transform" type="rotate"
+      values="-3 220 8; 3 220 8; -3 220 8"
+      keyTimes="0; 0.5; 1"
+      dur="6s"
+      calcMode="spline"
+      keySplines="0.45 0 0.55 1; 0.45 0 0.55 1"
+      repeatCount="indefinite"/>
+
+    <!-- attachment ring -->
+    <circle cx="220" cy="8" r="6" fill="none" stroke="#30363D" stroke-width="2"/>
+
+    <!-- lanyard strap -->
+    <path d="M 220 12 L 220 110" stroke="url(#lanyardGradient)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M 220 12 L 220 110" stroke="#0D1117" stroke-width="2" stroke-dasharray="1 7" stroke-linecap="round" opacity="0.35"/>
+
+    <!-- grommet -->
+    <circle cx="220" cy="108" r="6" fill="#30363D"/>
+    <circle cx="220" cy="108" r="2.5" fill="#0D1117"/>
+
+    <!-- card body -->
+    <rect x="50" y="108" width="340" height="400" rx="18" ry="18" fill="#161B22" stroke="#30363D" stroke-width="1.5"/>
+
+    <g clip-path="url(#cardClip)">
+      <!-- top stripe -->
+      <rect x="50" y="108" width="340" height="6" fill="url(#stripeGradient)"/>
+      <!-- faint corner grid accent -->
+      <g opacity="0.06" stroke="#58A6FF" stroke-width="1">
+        <line x1="330" y1="120" x2="386" y2="120"/>
+        <line x1="330" y1="132" x2="386" y2="132"/>
+        <line x1="330" y1="144" x2="386" y2="144"/>
+      </g>
+    </g>
+
+    <text x="220" y="140" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="10" letter-spacing="3" fill="#6E7681">DEVELOPER BADGE</text>
+
+    <!-- photo -->
+    <circle cx="220" cy="205" r="57" fill="#0D1117" stroke="#30363D" stroke-width="1"/>
+    <image href="https://raw.githubusercontent.com/dharmik-patel1511/dharmik-patel1511/main/assets/profile/dharmik-profile.png"
+      x="163" y="121" width="114" height="168"
+      preserveAspectRatio="xMidYMin slice"
+      clip-path="url(#photoClip)"/>
+    <circle cx="220" cy="205" r="54" fill="none" stroke="#58A6FF" stroke-width="2" opacity="0.85"/>
+
+    <!-- name + roles -->
+    <text x="220" y="288" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#F0F6FC">Dharmik Patel</text>
+
+    <text x="220" y="312" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8B949E">Software Developer · Full-Stack Developer</text>
+    <text x="220" y="331" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#8B949E">AI/ML Enthusiast</text>
+
+    <line x1="80" y1="352" x2="360" y2="352" stroke="#30363D" stroke-width="1"/>
+
+    <text x="220" y="376" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" letter-spacing="1" fill="#6E7681">GITHUB · LINKEDIN</text>
+
+    <!-- decorative barcode-style identifier -->
+    <g fill="#30363D">
+      <rect x="96" y="400" width="3" height="26"/>
+      <rect x="103" y="400" width="1.5" height="26"/>
+      <rect x="109" y="400" width="4" height="26"/>
+      <rect x="117" y="400" width="1.5" height="26"/>
+      <rect x="123" y="400" width="2.5" height="26"/>
+      <rect x="131" y="400" width="1.5" height="26"/>
+      <rect x="137" y="400" width="3.5" height="26"/>
+      <rect x="145" y="400" width="1.5" height="26"/>
+      <rect x="151" y="400" width="2.5" height="26"/>
+      <rect x="158" y="400" width="1.5" height="26"/>
+      <rect x="164" y="400" width="4" height="26"/>
+      <rect x="172" y="400" width="1.5" height="26"/>
+      <rect x="178" y="400" width="2.5" height="26"/>
+      <rect x="185" y="400" width="1.5" height="26"/>
+      <rect x="191" y="400" width="3" height="26"/>
+      <rect x="198" y="400" width="1.5" height="26"/>
+      <rect x="204" y="400" width="2.5" height="26"/>
+      <rect x="211" y="400" width="1.5" height="26"/>
+      <rect x="217" y="400" width="4" height="26"/>
+      <rect x="225" y="400" width="1.5" height="26"/>
+      <rect x="231" y="400" width="2.5" height="26"/>
+      <rect x="238" y="400" width="1.5" height="26"/>
+      <rect x="244" y="400" width="3.5" height="26"/>
+      <rect x="252" y="400" width="1.5" height="26"/>
+      <rect x="258" y="400" width="2.5" height="26"/>
+      <rect x="265" y="400" width="1.5" height="26"/>
+      <rect x="271" y="400" width="4" height="26"/>
+      <rect x="279" y="400" width="1.5" height="26"/>
+      <rect x="285" y="400" width="2.5" height="26"/>
+      <rect x="292" y="400" width="1.5" height="26"/>
+    </g>
+    <text x="220" y="444" text-anchor="middle" font-family="'Courier New', monospace" font-size="10" letter-spacing="2" fill="#6E7681">dharmik-patel1511</text>
+
+    <!-- bottom stripe -->
+    <rect x="50" y="486" width="340" height="22" rx="0" fill="url(#stripeGradient)" opacity="0.9"/>
+    <text x="220" y="501" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="1" fill="#0D1117">FINAL-YEAR IT ENGINEER</text>
+  </g>
+
+  <!-- ===================== RIGHT: FEATURED PROJECTS PANEL ===================== -->
+  <g id="featured-projects">
+    <text x="460" y="98" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#F0F6FC">Featured Projects</text>
+    <text x="460" y="119" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E">Selected builds — full portfolio on GitHub</text>
+    <rect x="460" y="130" width="600" height="2" fill="url(#panelHeaderRule)"/>
+
+    <!-- Row 1: ZORO AI -->
+    <g>
+      <rect x="460" y="146" width="600" height="82" rx="12" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      <rect x="460" y="146" width="4" height="82" rx="2" fill="#58A6FF"/>
+      <text x="486" y="177" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#F0F6FC">ZORO AI</text>
+      <text x="486" y="199" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E">AI / FinTech · React Native, JavaScript</text>
+      <text x="1046" y="177" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#58A6FF">View →</text>
+    </g>
+
+    <!-- Row 2: InvestNook -->
+    <g>
+      <rect x="460" y="242" width="600" height="82" rx="12" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      <rect x="460" y="242" width="4" height="82" rx="2" fill="#A371F7"/>
+      <text x="486" y="273" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#F0F6FC">InvestNook</text>
+      <text x="486" y="295" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E">Startup / Business · PHP, MySQL, JavaScript</text>
+      <text x="1046" y="273" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#A371F7">View →</text>
+    </g>
+
+    <!-- Row 3: Hospital Management System -->
+    <g>
+      <rect x="460" y="338" width="600" height="82" rx="12" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      <rect x="460" y="338" width="4" height="82" rx="2" fill="#39C5CF"/>
+      <text x="486" y="369" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#F0F6FC">Hospital Management System</text>
+      <text x="486" y="391" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E">Healthcare · PHP, MySQL, JavaScript</text>
+      <text x="1046" y="369" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#39C5CF">View →</text>
+    </g>
+
+    <!-- Row 4: Human Resource Management System -->
+    <g>
+      <rect x="460" y="434" width="600" height="82" rx="12" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      <rect x="460" y="434" width="4" height="82" rx="2" fill="#D29922"/>
+      <text x="486" y="465" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#F0F6FC">Human Resource Management System</text>
+      <text x="486" y="487" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#8B949E">Enterprise / Corporate · PHP, MySQL, JavaScript</text>
+      <text x="1046" y="465" text-anchor="end" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#D29922">View →</text>
+    </g>
+  </g>
+</svg>
