@@ -73,6 +73,24 @@ capabilities to build reliable, scalable, and user-focused digital solutions.
   alt="Data Analytics">
 </p>
 
+<h4>Connect with Me</h4>
+
+<p>
+  <a href="https://www.linkedin.com/in/dharmikpatel-it/">
+    <img
+      src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
+      alt="LinkedIn"
+    />
+  </a>
+
+  <a href="mailto:dharmik15112004@gmail.com">
+    <img
+      src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
+      alt="Email"
+    />
+  </a>
+</p>
+
 </td>
 
 </tr>
@@ -528,28 +546,7 @@ capabilities to build reliable, scalable, and user-focused digital solutions.
     width="100%"
     alt="Let's Connect Footer"
   />
-
-  <p align="center">
-    <a href="https://www.linkedin.com/in/dharmikpatel-it/">
-      <img
-        src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-        alt="LinkedIn"
-      />
-    </a>
-    <a href="mailto:dharmik15112004@gmail.com">
-      <img
-        src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"
-        alt="Email"
-      />
-    </a>
-    <a href="https://github.com/dharmik-patel1511">
-      <img
-        src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
-        alt="GitHub"
-      />
-    </a>
-  </p>
-
+  
 </div>
 
 <!-- ===================== END CONTACT ===================== -->
